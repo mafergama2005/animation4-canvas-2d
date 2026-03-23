@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /* IMPORTANTE: nombre SIN espacios */
+  background: url("../assets/img/aurora.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(98, 241, 14);
+}
+
+/* CANVAS VISIBLE */
+canvas {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6); /* 🔥 ahora sí se ve */
+  border: 2px solid white;
+}
